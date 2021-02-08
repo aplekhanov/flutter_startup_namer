@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Welcome to Flutter',
       theme: ThemeData(primaryColor: Colors.red),
       home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
